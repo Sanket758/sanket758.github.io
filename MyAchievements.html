@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<title>Sanket Gadge</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<!--<link rel="stylesheet" href="assets/css/main.css" /> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="images/profile.jpg" style="width:90%;" class="w3-round"><br><br>
+    <h4><b>Sanket S. Gadge</b></h4>
+    <p class="w3-text-grey">Computer Engg</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>My Projects</a> 
+    <a href="AboutMe.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>My Resume</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>Certificates and Badges</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="https://www.facebook.com/sanket.gadge.129"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/sanket_gadge"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/sanket-gadge-b78438b0/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+  <!-- Header -->
+  <header id="portfolio">
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+      <div class="w3-container">
+        <h1><b>Certificates & Badges</b></h1>
+      </div>
+  </header>
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <!-- Card no 1 -->
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/Coursera Deep Learning Spec.jpg" alt="Badge" style="width:100%" class="w3-hover-opacity">       
+         <!--
+      <img src="/images/.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      -->
+      <div class="w3-container w3-white">
+        <p><b>Deep Learning Specialization</b></p>
+          <p>This course is offered by <a href='https://www.coursera.com'>Coursera</a> and consists of 5 individual courses which covers important aspects of deep learning. From simple linear regression to creating complex LSTM and RNN networks, this course covers most of the topic. Not only the programming but also the mathematics behind the equations. Instructors for this course is Sir Andrew NG.
+          <footer>
+            <a href="https://coursera.org/share/eef99b5992d5af04379a4b4c2dab4fb4">
+            <i class="fa w3-hover-opacity w3-button w3-border w3-large">&nbsp; View Credentials</i>
+            </a>
+          </footer>
+        </p>
+      </div>
+    </div>
+    <!-- Card no 2 -->
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/Coursera Tensorflow in practice Spec.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><a href="https://coursera.org/share/289a37a6463005d94af3a29f34429833"><b>Tensorflow in practice Specialization</b></a></p>
+        <p>This course is offered by <a href='https://www.coursera.com'>Coursera</a> and consists of 4 individual courses which covers important aspects of deep learning. From simple linear regression to creating complex LSTM and RNN networks, this course covers most of the implementation using tensorflow.
+          <footer>
+              <a href="https://coursera.org/share/289a37a6463005d94af3a29f34429833">
+              <i class="fa fa-github fa-th-large w3-hover-opacity w3-button w3-border w3-large">&nbsp; View Credentials</i>
+              </a>
+          </footer>
+         </p>
+      </div>
+    </div>
+    <!-- Card no 3 -->
+        <div class="w3-third w3-container">
+      <img src="images/Complete python 3.jpg" alt="NorComplete python 3.jpgway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Python 3 Course</b></p>
+        <p>Learning python3
+        <footer>
+           <a href="#">
+            <i class="fa fa-github fa-th-large w3-hover-opacity w3-button w3-border w3-large">&nbsp; View Credentials</i>
+            </a>
+        </footer></p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <!-- Card no 1 -->
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/python-for-data-science.png" alt="Norway" style="width:100%; height:256px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Python for Data Science</b></p>
+        <p>In this course i learned about python for datascience
+        <footer>
+           <a href="https://www.youracclaim.com/badges/8bf6f17e-43c4-456d-84c9-6c4d0607e866/public_url">
+            <i class="fa fa-github fa-th-large w3-hover-opacity w3-button w3-border w3-large">&nbsp; View Credentials</i>
+            </a>
+        </footer>
+      </p>
+      </div>
+    </div>
+    <!-- Card no 2 -->
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/appliedds.png" alt="Norway" style="width:100%; height: 256px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Applied Data Science </b></p>
+        <p>This is the continuation of Python for data science in this course i learned some advanced concepts.
+                <footer>
+           <a href="https://www.youracclaim.com/badges/85eb80ee-ec39-44d6-a011-e1839e7dad92/public_url">
+            <i class="fa fa-github fa-th-large w3-hover-opacity w3-button w3-border w3-large">&nbsp; View Credentials</i>
+            </a>
+        </footer></p>
+      </div>
+    </div>
+    <!-- Card no 3 -->
+    <div class="w3-third w3-container">
+      <img src="images/machine-learning-with-python.png" alt="Norway" style="width:100%; height: 256px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Machine Learning with Python</b></p>
+        <p>Here i learned machine learning concepts with Python
+        <footer>
+           <a href="https://www.youracclaim.com/badges/de9d3eba-043d-449d-a670-274941089e4c/public_url">
+            <i class="fa fa-github fa-th-large w3-hover-opacity w3-button w3-border w3-large">&nbsp; View Credentials</i>
+            </a>
+        </footer></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Third Photo Grid-->
+  <div class="w3-row-padding">
+    <!-- Card no 1 -->
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/chatbot.png" alt="Norway" style="width:100%;height:256px;" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Building a chatbot using IBM Watson</b></p>
+        <p>My Attempt to create a personal chatbot using IBM Watson
+        <footer>
+           <a href="https://www.youracclaim.com/badges/122db93f-372b-4fbb-9a46-98f3a963142a/public_url">
+            <i class="fa fa-github fa-th-large w3-hover-opacity w3-button w3-border w3-large">&nbsp; View Credentials</i>
+            </a>
+        </footer>
+      </p>
+      </div>
+    </div>
+    <!-- Card no 2 -->
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/dataviz.png" alt="Norway" style="width:100%; height:256px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Data Visualization using Python</b></p>
+        <p>In this course i learned visualization with python
+        <footer>
+           <a href="https://www.youracclaim.com/badges/de9d3eba-043d-449d-a670-274941089e4c/public_url">
+            <i class="fa fa-github fa-th-large w3-hover-opacity w3-button w3-border w3-large">&nbsp; View Credentials</i>
+            </a>
+        </footer></p>
+      </div>
+    </div>
+    <!-- Card no 3 -->
+    <div class="w3-third w3-container">
+      <img src="images/ibm-machine-learning-essentials.png" alt="Norway" style="width:100%; height: 256px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>IBM Machine Learning Essentials</b></p>
+        <p>This badge is offered by IBM, after passing the test.
+        <footer>
+            <a href="https://www.youracclaim.com/badges/4857aba4-93fc-4092-acd4-5b4cb2ba0ade/public_url">
+            <i class="fa fa-github fa-th-large w3-hover-opacity w3-button w3-border w3-large">&nbsp; View Credentials</i>
+            </a>
+           </footer></p>
+      </div>
+    </div>
+
+  </div>
+   
+  <!-- Pagination 
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+-->
+  <hr>   
+    
+  <!-- Footer -->
+  <footer class="w3-grey">
+    <center>
+      <div class="row">
+        <center>
+        <div class="container">
+          <div class="col-xs- info col-md-15">
+           <h1>Sanket Gadge</h1>
+           <p><i class="fa fa-globe"></i> 1998-09-02,  Thane, Maharashtra, India</p>
+           <p><i class="fa fa-map-marker"></i> Thane</p>
+           <p class="special contact-link"><i class="fa fa-envelope-o"></i> <span id="e333229186">gadgesanket75@gmail.com</p>
+           <p  class="special"><i class="fa fa-phone"></i> <a class="contact-link" href="tel:7977491939">7977491939</a></p>
+          </div>              
+        </div>
+        </center>
+      </div>
+    </center>    
+  </footer>
+
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
